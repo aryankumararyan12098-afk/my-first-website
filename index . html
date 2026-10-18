@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style>
+        body {
+            background-color: #101827;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px 15px;
+        }
+
+        .box {
+            background-color: #1e293b;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #38bdf8;
+        }
+
+        button {
+            background-color: #38bdf8;
+            color: #101827;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Welcome! 👋</h1>
+        <h2>My First Website</h2>
+        <p>Namaste! Meri website par aapka swagat hai.</p>
+        <button onclick="alert('Thank you for visiting!')">
+            Click Me
+        </button>
+    </div>
+</body>
+</html>
